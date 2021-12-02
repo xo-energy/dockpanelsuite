@@ -1,0 +1,25 @@
+<Project>
+
+  <PropertyGroup>
+    <Product>DockPanelSuite</Product>
+    <Authors>Weifen Luo and other contributors</Authors>
+    <Copyright>(C) 2007-2020 Weifen Luo and other contributors</Copyright>
+    <RepositoryUrl>https://github.com/xo-energy/dockpanelsuite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>http://dockpanelsuite.com</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Condition="!Exists('packages.config')">
+      <Version>3.4.244</Version>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

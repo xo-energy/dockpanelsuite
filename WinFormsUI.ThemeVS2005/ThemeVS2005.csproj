@@ -2,21 +2,9 @@
 
   <PropertyGroup>
     <PackageId>DockPanelSuite.ThemeVS2005</PackageId>
-    <PackageVersion>3.1.0</PackageVersion>
-    <FileVersion>3.1.0.0</FileVersion>
-    <Authors>Weifen Luo and other contributors</Authors>
     <Description>Visual Studio 2005 theme for DockPanel Suite.</Description>
-    <Copyright>(C) 2007-2020 Weifen Luo and other contributors</Copyright>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>http://dockpanelsuite.com</PackageProjectUrl>
-    <PackageReleaseNotes>
-      Release notes can be found at GitHub,
-      https://github.com/dockpanelsuite/dockpanelsuite/releases
-    </PackageReleaseNotes>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <StartupObject />
     <RootNamespace>WeifenLuo.WinFormsUI</RootNamespace>
     <AssemblyName>WeifenLuo.WinFormsUI.Docking.ThemeVS2005</AssemblyName>
     <SignAssembly>true</SignAssembly>
