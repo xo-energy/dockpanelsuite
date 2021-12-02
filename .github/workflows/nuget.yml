@@ -27,5 +27,5 @@ jobs:
       - run: mkdir packages
       - run: dotnet pack -c Release -o packages WinFormsUI
       - run: dotnet pack -c Release -o packages WinFormsUI.ThemeVS2005
-      - run: dotnet nuget push -k "${{ secrets.GITHUB_TOKEN }}" -s "$GITHUB_PACKAGE_SOURCE" "packages/DockPanelSuite.${{ steps.nbgv.outputs.NuGetPackageVersion }}.nupkg"
-      - run: dotnet nuget push -k "${{ secrets.GITHUB_TOKEN }}" -s "$GITHUB_PACKAGE_SOURCE" "packages/DockPanelSuite.ThemeVS2005.${{ steps.nbgv.outputs.NuGetPackageVersion }}.nupkg"
+      - run: dotnet nuget push -k "${{ secrets.GITHUB_TOKEN }}" -s "$GITHUB_PACKAGE_SOURCE" "packages\DockPanelSuite.${{ steps.nbgv.outputs.NuGetPackageVersion }}.nupkg"
+      - run: dotnet nuget push -k "${{ secrets.GITHUB_TOKEN }}" -s "$GITHUB_PACKAGE_SOURCE" "packages\DockPanelSuite.ThemeVS2005.${{ steps.nbgv.outputs.NuGetPackageVersion }}.nupkg"
