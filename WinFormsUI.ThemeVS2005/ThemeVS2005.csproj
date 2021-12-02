@@ -65,10 +65,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="WinFormsUI.csproj">
-      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
-      <Name>WinFormsUI</Name>
-    </ProjectReference>
+    <ProjectReference Include="..\WinFormsUI\WinFormsUI.csproj" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ThemeVS2005\Resources.resx">
